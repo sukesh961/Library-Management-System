@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;400&family=Open+Sans:wght@300&display=swap');
+html,body{
+    margin:0;
+    padding:0;
+
+}
+body{
+    font:90% Open Sans,sans-serif;
+    text-align:center;
+    
+}
+div#header{
+background-color:rgb(119, 194, 181);
+}
+div#header h1{
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    padding-left: 10px;
+}
+div#container{
+ height: auto;
+ width: auto;
+ margin: auto; 
+ text-align: left;  
+}
+div#wrapper{
+    float: right;
+    width: 800px;
+    margin-right: 100px;
+}
+div#wrapper p{
+   line-height: 1.4;
+   text-align: justify; 
+
+   
+}
+div#navi{
+    float: left;
+    width: 300px;
+   height: 500px;
+    background:lightgrey;
+    
+}
+div#navi ul{
+margin-right: 30px;
+    list-style-type: none;
+
+}
+div#navi li{
+    margin-bottom: 10px ;
+}
+div#footer{
+    clear:both;
+    width: 100%;
+    background: lightgrey;
+}
+div#footer p{
+    margin:0;
+    padding: 5px 10px;
+}
+a{
+    padding: 5px;
+    text-decoration:none;
+    color: black;
+   
+}
+a:hover{
+    color: cadetblue;
+}
+p{
+    margin: 0 10px 10px;
+    
+}
+#heading{
+    text-align: left;
+    margin-left: 50px;
+}
+
+#center{
+    height: auto;
+    width: 300px;
+    margin-right:500px; 
+    
+}
+label,input,button,select,textarea{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+input,select,textarea{
+    width: 100%;
+}
+.error{
+    color: red;
+    text-align: center;
+}
+.success{
+    color:green;
+    text-align: center;
+}
+.record{
+    list-style-type:disc;
+
+}
+.record li{
+    margin: 15px;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+table td,table th{
+    border: 2px solid #ddd;
+    padding: 5px;
+   
+}
